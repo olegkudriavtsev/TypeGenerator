@@ -2,14 +2,18 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
+
+        <IsPackable>false</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="MSTest.TestAdapter" Version="2.0.0-beta4" />
-        <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
-        <PackageReference Include="CompareNETObjects" Version="4.59.0" />
+        <PackageReference Include="Moq" Version="4.11.0" />
+        <PackageReference Include="nunit" Version="3.11.0" />
         <PackageReference Include="NUnit.CompareNetObjects" Version="0.1.9" />
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.2" />
+        <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.1.0" />
+        <PackageReference Include="CompareNETObjects" Version="4.59.0" />
+        <PackageReference Include="Faction.Foundation.Domain" Version="1.0.3-alpha.2019-06-17b01" />
     </ItemGroup>
     
 </Project>
